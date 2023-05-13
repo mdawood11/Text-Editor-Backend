@@ -19,7 +19,6 @@ butInstall.addEventListener("click", async () => {
   // Show prompt
   eventPrompt.prompt();
 
-  // Wait for the user to respond to the prompt
   window.deferredPrompt = null;
 
   butInstall.classList.toggle("hidden", true);
