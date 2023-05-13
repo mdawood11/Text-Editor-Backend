@@ -30,7 +30,6 @@ registerRoute(({ request }) => request.mode === "navigate", pageCache);
 registerRoute(
   ({ request }) => ["style", "script", "worker"].includes(request.destination),
   new StaleWhileRevalidate({
-    // Name of the cache storage.
     cacheName: "asset-cache",
     plugins: [
       new CacheableResponsePlugin({
