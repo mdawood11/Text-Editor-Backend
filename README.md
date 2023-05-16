@@ -13,7 +13,7 @@ This is a text editor Application that runs in the browser. The app is a single 
 
 Navigate to the root directory of the project in your terminal and install the dependencies with 'npm i' then npm run build to compile the webpack, start the server with npm start. The application will be deployed on your [localhost with port 3000]. When you first start the application you should see something similar to the image below. You can now use the text editor and it will save all changes you make automatically as you make changes to it.
 
-![Project Preview](./Assets/images/00-demo%202.gif)
+![Project Preview](./Assets/Screen%20Shot%202023-05-14%20at%207.37.31%20PM.png)
 
 ## Heroku Link
 
